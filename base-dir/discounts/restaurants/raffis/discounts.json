@@ -1,0 +1,36 @@
+{
+    "discounts" : [
+        {
+            "price": "$20",
+            "name": "Raffi's: Going Krazy with Chicken Kabobs",
+            "description": "Get any chicken kabob for just $20.00!",
+            "items": ["Chicken Barg Kabob", "Chicken Boneless Kabob", 
+                "Chicken with Bone Kabob", "Chicken Koobideh Kabob"],
+            "icon": "chicken.png",
+            "type": "regular",
+            "id": "1",
+            "rating": "5/5"
+        },
+        {
+            "price": "$15",
+            "name": "Raffi's: Domestic Beer Soup",
+            "description": "Get a soup/beer combo for $15",
+            "items": [["Barley Soup", "Lentil Soup"], 
+                ["Budweiser", "Bud Light", "Miller Light", "Samuel Adams"]],
+            "icon": "beer.png",
+            "type": "combo",
+            "id": "2",
+            "rating": "4/5"
+        },
+        {
+            "price": "$25",
+            "name": "Raffi's: Go Fish",
+            "description": "Get any fish dish for only $25",
+            "items": ["White Fish Kabob", "Mahi Mahi Kabob", "Fresh Scottish Salmon"],
+            "icon": "fish.png",
+            "type": "regular",
+            "id": "3",
+            "rating": "4/5"
+        }
+    ]
+}

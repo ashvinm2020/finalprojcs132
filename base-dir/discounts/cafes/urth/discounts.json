@@ -1,0 +1,36 @@
+{
+    "discounts" : [
+        {
+            "price": "$10",
+            "name": "Urth: Wonderful Waffles",
+            "description": "Get any waffle for just $10!",
+            "items": ["Classic Belgian Waffle", "Fresh Corn Waffle",
+                        "Banana Walnut Waffle", "Vanille Ice Cream Waffle"],
+            "icon": "waffles.png",
+            "type": "regular",
+            "id": "7",
+            "rating": "4/5"
+        },
+        {
+            "price": "$3",
+            "name": "Urth: Lotta Lattes",
+            "description": "Get lattes for just $3!",
+            "items": ["Caffe Latte", "Spanish Latte", "Honey Vanilla Latte",
+                    "Rude Awakening", "Caffe Quadra"],
+            "icon": "latte-art.png",
+            "type": "regular",
+            "id": "8",
+            "rating": "5/5"
+        },
+        {
+            "price": "$15",
+            "name": "Urth: Cheesing For Cheesecake",
+            "description": "Get any cheesecake for just $6!",
+            "items": ["New York Cheesecake", "Blueberry Cheesecake", "Oreo Cheesecake"],
+            "icon": "cheesecake.png",
+            "type": "regular",
+            "id": "9",
+            "rating": "5/5"
+        }
+    ]
+}

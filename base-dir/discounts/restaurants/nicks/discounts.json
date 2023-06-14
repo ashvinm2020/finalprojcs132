@@ -1,0 +1,36 @@
+{
+    "discounts" : [
+        {
+            "price": "$12",
+            "name": "Nick's: Saving on Salads",
+            "description": "Get any salad over $15.00 for just $12.00!",
+            "items": ["California Salad", "Grilled Steakhouse Salad", "Spicy Thai Salad", 
+                        "Grilled Chicken Salad", "Grilled Salmon Salad"],
+            "icon": "salad.png",
+            "type": "regular",
+            "id": "4",
+            "rating": "4/5"
+        },
+        {
+            "price": "$20",
+            "name": "Nick's: Fleecing Flatbreads",
+            "description": "Buy one flatbread, get one free for $20!",
+            "items": ["Margherita Flatbread", "Wild Mushroom Flatbread"],
+            "icon": "roti-canai.png",
+            "type": "regular",
+            "id": "5",
+            "rating": "3/5"
+        },
+        {
+            "price": "$27",
+            "name": "Nick's: Stay Green",
+            "description": "Get a combo of 3 vegetarian dishes for just $27!",
+            "items": ["California Salad", "Kale and Quinoa Salad", "Margherita Flatbread", 
+                        "Wild Mushroom Flatbread", "House Made Veggie Burger"],
+            "icon": "vegetables.png",
+            "type": "regular",
+            "id": "6",
+            "rating": "4/5"
+        }
+    ]
+}

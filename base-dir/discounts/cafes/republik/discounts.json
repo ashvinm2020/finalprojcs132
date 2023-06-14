@@ -1,0 +1,38 @@
+{
+    "discounts" : [
+        {
+            "price": "$5",
+            "name": "Republik: Signature Discount",
+            "description": "Get any signature drink for just $5!",
+            "items": ["Black Vanilla Latte", "Lavender & Oat", "Cardamom Oat Latte",
+                        "Sea Salted Hazelnut Cappuccino", "Pumkin Latte"],
+            "icon": "coffee.png",
+            "type": "regular",
+            "id": "10",
+            "rating": "5/5"
+        },
+        {
+            "price": "$10",
+            "name": "Republik: Vegan Vibes",
+            "description": "Get any vegan dish for just $10!",
+            "items": ["Black Coconut Chia Pudding", "Mushroom Avocado Toast",
+                    "Hummus Avocado Toast", "Republik Vegan Burrito", "Quinoa Grain Bowl"],
+            "icon": "vegan.png",
+            "type": "regular",
+            "id": "11",
+            "rating": "4/5"
+        },
+        {
+            "price": "$15",
+            "name": "Republik: Sandwich & Side",
+            "description": "Get a sandwich/side combo for just $15!",
+            "items": [["Republik Turkey Club", "Chicken Pesto Panini", 
+                "Grilled Chipotle Chicken Sandwich", "Tuna Melt Panini"], 
+                ["Avocado", "Smoked Salmon", "Prosciutto", "Chicken"]],
+            "icon": "sandwich.png",
+            "type": "combo",
+            "id": "12",
+            "rating": "5/5"
+        }
+    ]
+}

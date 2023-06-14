@@ -1,0 +1,37 @@
+{
+    "discounts" : [
+        {
+            "price": "$7",
+            "name": "Porto's: Coffee 'n Sourdough",
+            "description": "Get a hot coffee-sourdough loaf combo for just $7!",
+            "items": [["Sourdough Baguette", "Sourdough Batard"], 
+                ["Latte", "Mocha", "Cappuccino", "Cortadito"]],
+            "icon": "sourdough.png",
+            "type": "combo",
+            "id": "13",
+            "rating": "5/5"
+        },
+        {
+            "price": "$25",
+            "name": "Porto's: Chocolatey Chocolate",
+            "description": "Get any chocolate cake for just $25!",
+            "items": ["Parisial Chocolate Cake Round", "Chocolate Raspberry Cake",
+                    "Tiramisu Round"],
+            "icon": "black-forest.png",
+            "type": "regular",
+            "id": "14",
+            "rating": "5/5"
+        },
+        {
+            "price": "$4",
+            "name": "Porto's: Muffin 'n Juice",
+            "description": "Get any muffin/juice combo for just $4!",
+            "items": [["Mixed Berry Muffin", "Blueberry Muffin", "Chocolate Chip Muffin"], 
+                ["Orange Juice", "Guava Lemonade", "Strawberry Mojito"]],
+            "icon": "muffin.png",
+            "type": "combo",
+            "id": "15",
+            "rating": "5/5"
+        }
+    ]
+}
