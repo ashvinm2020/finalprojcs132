@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    Name: Ashvin Maheshwar
+    Section: 1 (for CS 132)
+    Description: This website is an e-commerce store that allows people to get
+    discounts on items at select food establishments in the Pasadena/Glendale area.
+    This file is the base HTML for the Loyal Users webpage of the website, which
+    allows users to provide information about themselves to become a loyal customer.
+    The file generates a form for users to input their information in
+    and has a button for them to be able to send that information to the owners of
+    the website.
+-->
+<html lang="en">
+    <head>
+        <title>Eat Cheap!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="utils.js"></script>
+        <script defer src="loyalusers.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Eat Cheap: Pasadena/Glendale</h1>
+        </header>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                </ul>
+            </nav>
+            <nav id="cart-nav">
+                <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Loyal Users</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div id="loyal-users">
+                <h2>Loyal Users</h2>
+                <h3>Provide the following information to become a loyal user!</h3>
+                <form id="loyal-users-form">
+                    <!-- The below pattern was taken from Lecture 14 slides-->
+                    <label>
+                        Name:
+                    <input name="name" type="text" pattern="[A-Z][a-z]+ [A-Z][a-z]+" required>
+                    </label>
+                    <label>
+                        Email:
+                    <input name="email" type="email" required>
+                    </label>
+                    <label>
+                        Phone Number (XXX-XXX-XXXX):
+                    <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </label>
+                    <button id="submit-btn" type="submit">Become a Loyal User!</button>
+                </form>
+                <div id="loyal-users-form-reply"></div>
+            </div>
+        </main>
+    </body>
+</html>

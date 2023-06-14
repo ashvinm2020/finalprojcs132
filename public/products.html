@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+    Name: Ashvin Maheshwar
+    Section: 1 (for CS 132)
+    Description: This website is an e-commerce store that allows people to get
+    discounts on items at select food establishments in the Pasadena/Glendale area.
+    This file serves as the base HTML for the products webpage, which displays the 
+    many different discount products that the store offers. The webpage has a filter
+    for users to filter products based on whether they come from restaurants in the
+    area or cafes in the area, as well as both. Users can click into each product and
+    view more detailed information about them and then add them to their cart.
+-->
+<html lang="en">
+    <head>
+        <title>Eat Cheap!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="utils.js"></script>
+        <script defer src="products.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Eat Cheap: Pasadena/Glendale</h1>
+        </header>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">All Products</a></li>
+                </ul>
+            </nav>
+            <nav id="cart-nav">
+                <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="loyalusers.html">Loyal Users</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div id="all-products-container">
+                <h2>All Products</h2>
+                <h3>
+                    Below, you can view all our discount products that we offer!
+                    Filter through the products based on restaurant discounts or cafe discounts!
+                </h3>
+                <h4>Click on each product to know more details and potentially add to your cart!</h4>
+                <select id="food-establishments">
+                    <option value="none" selected>None</option>
+                    <option value="all">All Products</option>
+                    <option value="restaurants">Restaurants</option>
+                    <option value="cafes">Cafes</option>
+                </select>
+                <div id="products"></div>
+            </div>
+            <div id="single-product" class="hidden"></div>
+        </main>
+        <footer id="product-footer">
+            <a href="https://www.flaticon.com/free-icons/salad" title="salad icons">
+                Salad icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/bread" title="bread icons">
+                Bread icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/vegetables" title="vegetables icons">
+                Vegetables icons created by Mihimihi - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/chicken" title="chicken icons">
+                Chicken icons created by Freepik - Flaticon
+            </a> 
+            <a href="https://www.flaticon.com/free-icons/beer" title="beer icons">
+                Beer icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/fish" title="fish icons">
+                Fish icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/sourdough" title="sourdough icons">
+                Sourdough icons created by mangsaabguru - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/cake" title="cake icons">
+                Cake icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/muffin" title="muffin icons">
+                Muffin icons created by monkik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">
+                Coffee icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/vegan" title="vegan icons">
+                Vegan icons created by juicy_fish - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/sandwich" title="sandwich icons">
+                Sandwich icons created by Freepik - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/waffles" title="waffles icons">
+                Waffles icons created by surang - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">
+                Coffee icons created by Chanut-is-Industries - Flaticon
+            </a>
+            <a href="https://www.flaticon.com/free-icons/cake" title="cake icons">
+                Cake icons created by Freepik - Flaticon
+            </a>
+        </footer>
+    </body>
+</html>

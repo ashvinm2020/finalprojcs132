@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+    Name: Ashvin Maheshwar
+    Section: 1 (for CS 132)
+    Description: This website is an e-commerce store that allows people to get
+    discounts on items at select food establishments in the Pasadena/Glendale area.
+    This file is the base HTML for the Contact Us webpage of the website, which
+    allows users to contact the owners of the website with any concerns/questions
+    they have. The file generates a form for users to input their information in
+    and has a button for them to be able to send that information to the owners.
+-->
+<html lang="en">
+    <head>
+        <title>Eat Cheap!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="utils.js"></script>
+        <script defer src="contact.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Eat Cheap: Pasadena/Glendale</h1>
+        </header>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                </ul>
+            </nav>
+            <nav id="cart-nav">
+                <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="loyalusers.html">Loyal Users</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <h3>Send us your complaints/questions using the below form!</h3>
+                <form id="contact-form">
+                    <!-- The below pattern was taken from Lecture 14 slides-->
+                    <label>
+                        Name:
+                    <input name="name" type="text" pattern="[A-Z][a-z]+ [A-Z][a-z]+" required>
+                    </label>
+                    <label>
+                        Email:
+                    <input name="email" type="email" required>
+                    </label>
+                    <label>
+                        Complaints/Questions:
+                    <textarea name="message" minlength="10" rows="7" required></textarea>
+                    </label>
+                    <button id="submit-btn" type="submit">Send us your message!</button>
+                </form>
+                <div id="contact-form-reply"></div>
+            </div>
+        </main>
+    </body>
+</html>

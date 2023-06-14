@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Name: Ashvin Maheshwar
+    Section: 1 (for CS 132)
+    Description: This website is an e-commerce store that allows people to get
+    discounts on items at select food establishments in the Pasadena/Glendale area.
+    This file forms the base HTML for the cart functionality of the website, and it 
+    contains a simple message for the user stating that this is their cart. It also
+    has a button that can clear the cart.
+-->
+<html lang="en">
+    <head>
+        <title>Eat Cheap!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="utils.js"></script>
+        <script defer src="cart.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Eat Cheap: Pasadena/Glendale</h1>
+        </header>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                </ul>
+            </nav>
+            <nav id="cart-nav">
+                <ul>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="loyalusers.html">Loyal Users</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div id="cart-container">
+                <h2>Your Cart</h2>
+                <h3>These are all the items you have added to your cart!</h3>
+                <div id="cart"></div>
+                <button id="clear-btn">Clear Cart</button>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,219 @@
+/*
+* Name: Ashvin Maheshwar
+* Section: 1 (for CS 132)
+* Description: This website is an e-commerce store that allows people to get
+* discounts on items at select food establishments in the Pasadena/Glendale area.
+* This file styles the content of the e-commerce store with several rulesets.
+*/
+
+html, body, main {
+    height: 100%;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+body, main, #ad-pics, div, #navigation, #loyal-users, #loyal-users-form
+#products, #contact, #contact-form, label, #faqs, #faqs > div, #cart, footer,
+#cart-container {
+    display: flex;
+}
+
+body, main, #navigation, #products, #products > div, #contact-form,
+#contact, #faqs > div, #loyal-users, #loyal-users-form, #all-products-container,
+#single-product, #cart-container {
+    justify-content: space-between;
+}
+
+#ad-pics, label, #faqs, footer, #cart {
+    justify-content: space-evenly;
+}
+
+body, main, #contact, #contact-form, label, #faqs, #faqs > div, #loyal-users,
+#loyal-users-form, #all-products-container, #single-product, #cart-container {
+    flex-direction: column;
+}
+
+nav li, #contact-form, #loyal-users-form {
+    padding: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 0;
+  }
+
+nav {
+    width: 100%;
+    background-color: rgb(191, 240, 240);
+}
+
+header {
+    font-style: italic;
+}
+
+header, #contact, #loyal-users, #cart > div, #cart-container, 
+#all-products-container, #single-product, #cart {
+    text-align: center;
+}
+
+header {
+    color: darkblue;
+    font-weight: 100;
+}
+
+main > p, #products > div > p {
+    font-size: 22px;
+}
+
+#ad-pics img {
+    width: 500px;
+}
+
+#ad-pics p {
+    font-weight: bold;
+}
+
+#ad-pics p {
+    font-size: 25px;
+    color: rgb(11, 21, 86);
+}
+
+a {
+    color: rgb(147, 92, 20);
+    text-decoration: none;
+}
+
+h1, main > p, nav li, #ad-pics p, h2, h3, h4, div p, label, button, #faqs,
+#food-establishments, #back-btn, footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    background-color: rgb(233, 209, 176);
+}
+
+#cart-nav > ul {
+    float: right;
+}
+
+#products, footer {
+    flex-wrap: wrap;
+}
+
+#products, #single-product {
+    padding-bottom: 20px;
+}
+
+#products, #products > div > p {
+    padding-left: 10px;
+}
+
+#products {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#products > div > img {
+    width: 50px;
+    height: 50px;
+}
+
+#products > div, #cart > div, #contact-form, #loyal-users-form, #faqs > div {
+    border-style: solid;
+    border-radius: 25px;
+
+}
+
+#products > div, #cart > div, #faqs > div  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#products > div, #cart > div {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-color: bisque;
+    background-color: bisque;
+}
+
+#products > div {
+    cursor: pointer
+}
+
+#contact, #loyal-users, #cart > div, #cart-container, #all-products-container,
+#single-product, #cart, main {
+    align-items: center;
+}
+
+label {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#contact, #loyal-users {
+    padding-bottom: 30px;
+}
+
+#contact-form {
+    border-color: rgb(175, 219, 232);
+    background-color: rgb(175, 219, 232);
+}
+
+#loyal-users-form {
+    border-color: rgb(139, 232, 202);
+    background-color: rgb(139, 232, 202);
+}
+
+#faqs {
+    margin-bottom: 30px;
+}
+
+#faqs > div {
+    border-color: rgb(190, 165, 129);
+    background-color: rgb(190, 165, 129);
+}
+
+.hidden {
+    display: none;
+}
+
+#single-product > img {
+    width: 200px;
+    height: 200px;
+}
+
+#single-product {
+    padding-top: 20px;
+}
+
+a, #single-product p {
+    font-size: 20px;
+}
+
+#back-btn, #cart-btn, #clear-btn, select, footer > a {
+    font-size: 18px;
+}
+
+#cart-btn, #clear-btn {
+    margin-top: 15px;
+}
+
+.remove-btn {
+    margin-left: 10px;
+}
+
+#clear-btn {
+    margin-bottom: 15px;
+}
+
+#product-footer > a {
+    font-size: 10px;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
